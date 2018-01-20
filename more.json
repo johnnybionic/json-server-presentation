@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "fulltext": "A complete version of the text for post 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "fulltext": "A complete version of the text for post 2",
+      "postId": 2
+    }
+
+  ]
+}
