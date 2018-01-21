@@ -1,1 +1,1 @@
- json-server --watch ..\db-multi.js
+ json-server --watch ..\data\db-multi.js

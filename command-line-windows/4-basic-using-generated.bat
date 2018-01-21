@@ -1,1 +1,1 @@
- json-server --watch ..\generate-data.js
+ json-server --watch ..\data\generate-data.js
