@@ -4,19 +4,19 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode",
-      "views": 10
+      "views": 20
     },
     {
       "id": 2,
       "title": "my-project",
       "author": "johnny",
-      "views": 20
+      "views": 10
     },
     {
       "title": "new post updated",
       "author": "john.davis",
       "id": 3,
-      "views": 30
+      "views": 5
     },
     {
       "title": "new post",
@@ -34,6 +34,7 @@
       },
       "body": "some comment",
       "published": true,
+      "votes": 48,
       "postId": 1
     },
     {
@@ -44,6 +45,7 @@
       },
       "body": "comment 2",
       "published": false,
+      "votes": 90,
       "postId": 1
     },
     {
@@ -54,6 +56,7 @@
       },
       "body": "comment 3",
       "published": true,
+      "votes": 3,
       "postId": 2
     },
     {
@@ -64,6 +67,7 @@
       },
       "body": "comment 4",
       "published": false,
+      "votes": 9,
       "postId": 2
     },
     {
@@ -74,6 +78,7 @@
       },
       "body": "comment 5",
       "published": false,
+      "votes": 8,
       "postId": 2
     }
   ],

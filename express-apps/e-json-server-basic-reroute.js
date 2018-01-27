@@ -4,7 +4,8 @@ const router = jsonServer.router('../data/db.json');
 const middlewares = jsonServer.defaults();
 
 server.use(jsonServer.rewriter({
-    '/commentsByPost/:postId': '/posts/:postId/comments'
+    '/commentsByPost/:postId': '/posts/:postId/comments',
+    '/commentsByPostAndLastName/:postId/:surname': '/posts/:postId/comments?author.last=:surname'
 }));
 
 server.use(middlewares);
