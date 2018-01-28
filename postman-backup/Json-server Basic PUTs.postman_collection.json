@@ -1,0 +1,40 @@
+{
+	"info": {
+		"name": "Json-server Basic PUTs",
+		"_postman_id": "ffc83e9c-1dc3-f9d0-4e31-d66e51fcb4e8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get simple filter",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"new post updated\",\n    \"author\": \"jdavis\",\n    \"views\": 1\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"5"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

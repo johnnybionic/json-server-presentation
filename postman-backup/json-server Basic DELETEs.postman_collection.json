@@ -1,0 +1,40 @@
+{
+	"info": {
+		"name": "json-server Basic DELETEs",
+		"_postman_id": "19abd585-76d7-54d0-c539-c2d450c74a6f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Delete a post",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"new post updated\",\n    \"author\": \"jdavis\"\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"5"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"info": {
+		"name": "GET Rewrites",
+		"_postman_id": "5ebae9fe-2816-be4c-a69c-b1ceb96fb8a4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Rewrite commentsByPost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/commentsByPost/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"commentsByPost",
+						"1"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Rewrite commentsByPostAndLastName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/commentsByPostAndLastName/2/davis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"commentsByPostAndLastName",
+						"2",
+						"davis"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

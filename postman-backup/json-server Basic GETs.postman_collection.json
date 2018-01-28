@@ -1,0 +1,162 @@
+{
+	"info": {
+		"name": "json-server Basic GETs",
+		"_postman_id": "e5253c55-7250-fe69-7f85-cc98887bc02f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Homepage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "All posts by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"1"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get raw database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/db",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"db"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "get comments for post",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "anything"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts/2/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"2",
+						"comments"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "get comments for post embedded",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "anything"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/posts/1?_embed=comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"1"
+					],
+					"query": [
+						{
+							"key": "_embed",
+							"value": "comments",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get comments with embedded post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/comments/1?_expand=post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"comments",
+						"1"
+					],
+					"query": [
+						{
+							"key": "_expand",
+							"value": "post",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

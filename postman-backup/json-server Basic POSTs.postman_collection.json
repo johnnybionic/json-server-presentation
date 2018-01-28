@@ -1,0 +1,39 @@
+{
+	"info": {
+		"name": "json-server Basic POSTs",
+		"_postman_id": "7f8951ac-ddc3-b621-e355-398b2f8a46cb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create new post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " { \"title\": \"new post\", \"author\": \"jdavis\" }"
+				},
+				"url": {
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

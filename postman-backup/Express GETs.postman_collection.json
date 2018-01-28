@@ -1,0 +1,36 @@
+{
+	"info": {
+		"name": "Express GETs",
+		"_postman_id": "5d2adb3d-bcb4-5fa8-a73d-faa7bdf81025",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authorisation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "anything"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/db",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"db"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}
