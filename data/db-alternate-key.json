@@ -1,13 +1,13 @@
 {
   "posts": [
     {
-      "id": 1,
+      "key": 1,
       "title": "json-server",
       "author": "typicode",
       "views": 20
     },
     {
-      "id": 2,
+      "key": 2,
       "title": "my-project",
       "author": "johnny",
       "views": 10
@@ -15,19 +15,19 @@
     {
       "title": "new post updated",
       "author": "john.davis",
-      "id": 3,
+      "key": 3,
       "views": 5
     },
     {
       "title": "new post",
       "author": "jdavis",
-      "id": 4,
+      "key": 4,
       "views": 40
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "key": 1,
       "author": {
         "first": "john",
         "last": "davis"
@@ -38,7 +38,7 @@
       "postId": 1
     },
     {
-      "id": 2,
+      "key": 2,
       "author": {
         "first": "john",
         "last": "davis"
@@ -49,7 +49,7 @@
       "postId": 1
     },
     {
-      "id": 3,
+      "key": 3,
       "author": {
         "first": "don",
         "last": "javish"
@@ -60,7 +60,7 @@
       "postId": 2
     },
     {
-      "id": 4,
+      "key": 4,
       "author": {
         "first": "jane",
         "last": "davis"
@@ -71,7 +71,7 @@
       "postId": 2
     },
     {
-      "id": 5,
+      "key": 5,
       "author": {
         "first": "jane",
         "last": "doe"
@@ -84,18 +84,18 @@
   ],
   "refs": [
     {
-      "id": "abcd",
+      "key": "abcd",
       "url": "http://example.com",
       "postId": 1
     }
   ],
   "tags": [
     {
-      "id": 1,
+      "key": 1,
       "body": "Technology"
     },
     {
-      "id": 2,
+      "key": 2,
       "body": "Photography"
     }
   ],
