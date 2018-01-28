@@ -35,7 +35,7 @@
       "body": "some comment",
       "published": true,
       "votes": 48,
-      "postId": 1
+      "postKey": 1
     },
     {
       "key": 2,
@@ -46,7 +46,7 @@
       "body": "comment 2",
       "published": false,
       "votes": 90,
-      "postId": 1
+      "postKey": 1
     },
     {
       "key": 3,
@@ -57,7 +57,7 @@
       "body": "comment 3",
       "published": true,
       "votes": 3,
-      "postId": 2
+      "postKey": 2
     },
     {
       "key": 4,
@@ -68,7 +68,7 @@
       "body": "comment 4",
       "published": false,
       "votes": 9,
-      "postId": 2
+      "postKey": 2
     },
     {
       "key": 5,
@@ -79,14 +79,14 @@
       "body": "comment 5",
       "published": false,
       "votes": 8,
-      "postId": 2
+      "postKey": 2
     }
   ],
   "refs": [
     {
       "key": "abcd",
       "url": "http://example.com",
-      "postId": 1
+      "postKey": 1
     }
   ],
   "tags": [

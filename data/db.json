@@ -23,6 +23,22 @@
       "author": "jdavis",
       "id": 4,
       "views": 40
+    },
+    {
+      "title": "new post",
+      "author": "jdavis",
+      "id": 5
+    },
+    {
+      "title": "new post",
+      "author": "jdavis",
+      "id": 6
+    },
+    {
+      "title": "new post",
+      "author": "jdavis",
+      "createdAt": 1517136849941,
+      "id": 7
     }
   ],
   "comments": [

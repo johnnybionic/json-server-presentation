@@ -1,4 +1,5 @@
 {
   "id" : "key",
+  "foreignKeySuffix": "Key",
   "read-only" : true
 }
